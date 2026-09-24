@@ -1,0 +1,248 @@
+{
+  "id": "route",
+  "label": "Route Weather",
+  "description": "A 2-hour drive north to Port St. Lucie. Leaving on time drives straight into heavy rain near West Palm Beach.",
+  "current": {
+    "tempF": 85,
+    "feelsF": 93,
+    "text": "Partly Cloudy",
+    "humidity": 63,
+    "dewpointF": 73,
+    "windMph": 9,
+    "windDir": "SE",
+    "gustMph": null,
+    "visibilityMi": 10,
+    "pressureInHg": 29.99,
+    "observedMinutesAgo": 12
+  },
+  "diurnal": {
+    "temp": {
+      "0": 80,
+      "5": 78,
+      "7": 78,
+      "10": 84,
+      "13": 88,
+      "15": 89,
+      "17": 87,
+      "19": 84,
+      "22": 81
+    },
+    "feels": {
+      "0": 84,
+      "5": 81,
+      "7": 81,
+      "10": 92,
+      "13": 99,
+      "15": 101,
+      "17": 97,
+      "19": 91,
+      "22": 86
+    },
+    "humidity": {
+      "0": 86,
+      "6": 91,
+      "13": 58,
+      "16": 56,
+      "20": 72
+    },
+    "dewpoint": {
+      "0": 75,
+      "14": 74
+    }
+  },
+  "hourly": {
+    "tempDelta": {
+      "0": 0,
+      "3": 0,
+      "4": -2,
+      "5": 0
+    },
+    "pop": {
+      "0": 10,
+      "2": 20,
+      "3": 35,
+      "4": 30,
+      "5": 15,
+      "8": 10,
+      "30": 25,
+      "71": 20
+    },
+    "thunder": {
+      "0": 0,
+      "3": 10,
+      "4": 5,
+      "5": 0
+    },
+    "qpf": {
+      "0": 0,
+      "3": 0.3,
+      "4": 0.2,
+      "5": 0
+    },
+    "wind": {
+      "0": 9,
+      "24": 9
+    },
+    "gust": {
+      "0": 0
+    },
+    "sky": {
+      "0": 40,
+      "3": 70,
+      "5": 45,
+      "71": 30
+    },
+    "windDir": [
+      [
+        0,
+        72,
+        "SE"
+      ]
+    ],
+    "short": [
+      [
+        0,
+        2,
+        "Partly Cloudy"
+      ],
+      [
+        2,
+        5,
+        "Chance Showers"
+      ],
+      [
+        5,
+        72,
+        "{mfair}"
+      ]
+    ]
+  },
+  "days": [
+    {
+      "high": 88,
+      "low": 77,
+      "pop": 35,
+      "wind": "SE 9 mph",
+      "dayShort": "Partly Sunny then Chance Showers",
+      "dayText": "Partly sunny, with a chance of showers after {t+2}. Heavier rain stays north of Broward County this afternoon. High near 88. Chance of precipitation is 35%.",
+      "nightShort": "Partly Cloudy",
+      "nightText": "Partly cloudy, with a low around 77."
+    },
+    {
+      "high": 89,
+      "low": 78,
+      "pop": 20,
+      "wind": "E 9 mph",
+      "dayShort": "Mostly Sunny",
+      "dayText": "Mostly sunny, with a high near 89. Heat index values as high as 100. East wind around 9 mph.",
+      "nightShort": "Mostly Clear",
+      "nightText": "Mostly clear, with a low around 78."
+    },
+    {
+      "high": 88,
+      "low": 78,
+      "pop": 30,
+      "wind": "E 10 mph",
+      "dayShort": "Mostly Sunny then Chance Showers And Thunderstorms",
+      "dayText": "A chance of showers and thunderstorms after 2pm. Mostly sunny, with a high near 88. East wind around 10 mph. Chance of precipitation is 30%.",
+      "nightShort": "Partly Cloudy",
+      "nightText": "Partly cloudy, with a low around 78. East wind around 8 mph."
+    },
+    {
+      "high": 89,
+      "low": 78,
+      "pop": 20,
+      "wind": "E 9 mph",
+      "dayShort": "Mostly Sunny",
+      "dayText": "Mostly sunny, with a high near 89. Heat index values as high as 100. East wind around 9 mph.",
+      "nightShort": "Mostly Clear",
+      "nightText": "Mostly clear, with a low around 78."
+    },
+    {
+      "high": 88,
+      "low": 77,
+      "pop": 40,
+      "wind": "SE 8 mph",
+      "dayShort": "Chance Showers And Thunderstorms",
+      "dayText": "A chance of showers and thunderstorms. Partly sunny, with a high near 88. Chance of precipitation is 40%.",
+      "nightShort": "Chance Showers And Thunderstorms",
+      "nightText": "A chance of showers and thunderstorms before 10pm. Partly cloudy, with a low around 77."
+    },
+    {
+      "high": 87,
+      "low": 77,
+      "pop": 50,
+      "wind": "SE 9 mph",
+      "dayShort": "Showers And Thunderstorms Likely",
+      "dayText": "Showers and thunderstorms likely, mainly after 1pm. Partly sunny, with a high near 87. Chance of precipitation is 50%.",
+      "nightShort": "Chance Showers And Thunderstorms",
+      "nightText": "A chance of showers and thunderstorms. Mostly cloudy, with a low around 77."
+    },
+    {
+      "high": 88,
+      "low": 78,
+      "pop": 30,
+      "wind": "E 10 mph",
+      "dayShort": "Mostly Sunny then Chance Showers And Thunderstorms",
+      "dayText": "A chance of showers and thunderstorms after 2pm. Mostly sunny, with a high near 88. East wind around 10 mph. Chance of precipitation is 30%.",
+      "nightShort": "Partly Cloudy",
+      "nightText": "Partly cloudy, with a low around 78. East wind around 8 mph."
+    }
+  ],
+  "route": {
+    "from": "Miami",
+    "to": "Port St. Lucie",
+    "departInMin": 15,
+    "durationMin": 120,
+    "segments": [
+      {
+        "name": "Downtown Miami",
+        "lat": 25.774,
+        "lon": -80.194,
+        "etaMin": 0,
+        "heavyFromMin": null,
+        "heavyToMin": null
+      },
+      {
+        "name": "Fort Lauderdale (I-95)",
+        "lat": 26.122,
+        "lon": -80.143,
+        "etaMin": 30,
+        "heavyFromMin": null,
+        "heavyToMin": null
+      },
+      {
+        "name": "Boca Raton",
+        "lat": 26.368,
+        "lon": -80.101,
+        "etaMin": 50,
+        "heavyFromMin": 140,
+        "heavyToMin": 190
+      },
+      {
+        "name": "West Palm Beach",
+        "lat": 26.715,
+        "lon": -80.069,
+        "etaMin": 75,
+        "heavyFromMin": 60,
+        "heavyToMin": 150
+      },
+      {
+        "name": "Jupiter",
+        "lat": 26.934,
+        "lon": -80.094,
+        "etaMin": 95,
+        "heavyFromMin": 40,
+        "heavyToMin": 130
+      },
+      {
+        "name": "Port St. Lucie",
+        "lat": 27.273,
+        "lon": -80.35,
+        "etaMin": 120,
+        "heavyFromMin": null,
+        "heavyToMin": null
+      }
+    ]
+  }
+}

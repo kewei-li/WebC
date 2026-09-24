@@ -1,0 +1,251 @@
+{
+  "id": "rain",
+  "label": "Rain Arrival",
+  "description": "Dry now; a band of moderate-to-heavy showers arrives in about 2\u20133 hours and lasts roughly 3 hours.",
+  "current": {
+    "tempF": 87,
+    "feelsF": 97,
+    "text": "{mfair}",
+    "humidity": 62,
+    "dewpointF": 74,
+    "windMph": 8,
+    "windDir": "SE",
+    "gustMph": null,
+    "visibilityMi": 10,
+    "pressureInHg": 29.98,
+    "observedMinutesAgo": 11
+  },
+  "diurnal": {
+    "temp": {
+      "0": 80,
+      "5": 78,
+      "7": 78,
+      "10": 84,
+      "13": 88,
+      "15": 89,
+      "17": 87,
+      "19": 84,
+      "22": 81
+    },
+    "feels": {
+      "0": 84,
+      "5": 81,
+      "7": 81,
+      "10": 92,
+      "13": 99,
+      "15": 101,
+      "17": 97,
+      "19": 91,
+      "22": 86
+    },
+    "humidity": {
+      "0": 86,
+      "6": 91,
+      "13": 58,
+      "16": 56,
+      "20": 72
+    },
+    "dewpoint": {
+      "0": 75,
+      "14": 74
+    }
+  },
+  "hourly": {
+    "tempDelta": {
+      "0": 0,
+      "2": 0,
+      "3": -3,
+      "4": -7,
+      "6": -6,
+      "8": -3,
+      "12": 0
+    },
+    "pop": {
+      "0": 8,
+      "1": 15,
+      "2": 35,
+      "3": 65,
+      "4": 85,
+      "5": 80,
+      "6": 55,
+      "7": 30,
+      "8": 15,
+      "10": 10,
+      "24": 12,
+      "30": 30,
+      "34": 20,
+      "48": 15,
+      "71": 20
+    },
+    "thunder": {
+      "0": 0,
+      "2": 5,
+      "4": 18,
+      "6": 10,
+      "8": 0,
+      "30": 10,
+      "34": 0
+    },
+    "qpf": {
+      "0": 0,
+      "2": 0.2,
+      "3": 2,
+      "4": 5,
+      "5": 4,
+      "6": 1.5,
+      "7": 0.3,
+      "8": 0
+    },
+    "wind": {
+      "0": 8,
+      "2": 12,
+      "3": 15,
+      "5": 12,
+      "7": 8,
+      "24": 9
+    },
+    "gust": {
+      "0": 0,
+      "2": 18,
+      "3": 26,
+      "5": 20,
+      "7": 0
+    },
+    "sky": {
+      "0": 25,
+      "1": 40,
+      "2": 70,
+      "3": 95,
+      "6": 90,
+      "8": 60,
+      "10": 30,
+      "71": 30
+    },
+    "windDir": [
+      [
+        0,
+        3,
+        "SE"
+      ],
+      [
+        3,
+        7,
+        "S"
+      ],
+      [
+        7,
+        72,
+        "SE"
+      ]
+    ],
+    "short": [
+      [
+        0,
+        1,
+        "{mfair}"
+      ],
+      [
+        1,
+        2,
+        "Partly Sunny"
+      ],
+      [
+        2,
+        3,
+        "Chance Showers"
+      ],
+      [
+        3,
+        6,
+        "Showers Likely"
+      ],
+      [
+        6,
+        7,
+        "Chance Showers"
+      ],
+      [
+        7,
+        9,
+        "Slight Chance Showers"
+      ],
+      [
+        9,
+        72,
+        "{mfair}"
+      ]
+    ]
+  },
+  "days": [
+    {
+      "high": 88,
+      "low": 77,
+      "pop": 85,
+      "wind": "SE 10 to 15 mph",
+      "dayShort": "Showers Likely",
+      "dayText": "Dry until about {t+2}, then showers likely, mainly between {t+3} and {t+6}. Some heavy downpours possible. High near 88. Chance of precipitation is 85%. New rainfall amounts between a half and three quarters of an inch possible.",
+      "nightShort": "Chance Showers then Mostly Clear",
+      "nightText": "A chance of showers before {t+8}. Mostly cloudy early, then clearing, with a low around 77."
+    },
+    {
+      "high": 88,
+      "low": 78,
+      "pop": 30,
+      "wind": "E 10 mph",
+      "dayShort": "Mostly Sunny then Chance Showers And Thunderstorms",
+      "dayText": "A chance of showers and thunderstorms after 2pm. Mostly sunny, with a high near 88. East wind around 10 mph. Chance of precipitation is 30%.",
+      "nightShort": "Partly Cloudy",
+      "nightText": "Partly cloudy, with a low around 78. East wind around 8 mph."
+    },
+    {
+      "high": 89,
+      "low": 78,
+      "pop": 20,
+      "wind": "E 9 mph",
+      "dayShort": "Mostly Sunny",
+      "dayText": "Mostly sunny, with a high near 89. Heat index values as high as 100. East wind around 9 mph.",
+      "nightShort": "Mostly Clear",
+      "nightText": "Mostly clear, with a low around 78."
+    },
+    {
+      "high": 88,
+      "low": 77,
+      "pop": 40,
+      "wind": "SE 8 mph",
+      "dayShort": "Chance Showers And Thunderstorms",
+      "dayText": "A chance of showers and thunderstorms. Partly sunny, with a high near 88. Chance of precipitation is 40%.",
+      "nightShort": "Chance Showers And Thunderstorms",
+      "nightText": "A chance of showers and thunderstorms before 10pm. Partly cloudy, with a low around 77."
+    },
+    {
+      "high": 87,
+      "low": 77,
+      "pop": 50,
+      "wind": "SE 9 mph",
+      "dayShort": "Showers And Thunderstorms Likely",
+      "dayText": "Showers and thunderstorms likely, mainly after 1pm. Partly sunny, with a high near 87. Chance of precipitation is 50%.",
+      "nightShort": "Chance Showers And Thunderstorms",
+      "nightText": "A chance of showers and thunderstorms. Mostly cloudy, with a low around 77."
+    },
+    {
+      "high": 89,
+      "low": 78,
+      "pop": 20,
+      "wind": "E 9 mph",
+      "dayShort": "Mostly Sunny",
+      "dayText": "Mostly sunny, with a high near 89. Heat index values as high as 100. East wind around 9 mph.",
+      "nightShort": "Mostly Clear",
+      "nightText": "Mostly clear, with a low around 78."
+    },
+    {
+      "high": 88,
+      "low": 78,
+      "pop": 30,
+      "wind": "E 10 mph",
+      "dayShort": "Mostly Sunny then Chance Showers And Thunderstorms",
+      "dayText": "A chance of showers and thunderstorms after 2pm. Mostly sunny, with a high near 88. East wind around 10 mph. Chance of precipitation is 30%.",
+      "nightShort": "Partly Cloudy",
+      "nightText": "Partly cloudy, with a low around 78. East wind around 8 mph."
+    }
+  ]
+}

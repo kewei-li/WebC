@@ -1,36 +1,35 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Forecast — 2050 Web Direction C (Conservative)
 
-## Getting Started
+Responsive weather web prototype built from [`docs/2050_Web_Conservative_Intelligent_Forecast_PRD.md`](docs/2050_Web_Conservative_Intelligent_Forecast_PRD.md).
+Familiar **Home / Hourly / Daily / Maps** structure with an intelligence layer that decides what to say and promote.
 
-First, run the development server:
+- **Live data:** National Weather Service (api.weather.gov) for Miami, FL — hourly, 7-day, gridded data, observations, alerts. Radar: NOAA/NCEP MRMS.
+- **Scenarios:** six PRD test cases in `data/scenarios/*.json`, anchored to "now". Switch with `?scenario=calm|rain|severe|calendar|route|uncertain` (or `live`), or from Settings / `/debug`.
+- **Stack:** Next.js (App Router) · React · TypeScript · Tailwind · TanStack Query · D3 (Day Landscape, Precip Ribbon) · ECharts · MapLibre GL · Motion.
+- **Themes:** System / Light / Dark.
+
+## Run
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install        # postinstall copies the MapLibre ESM build into public/maplibre
+npm run dev -- --port 3050
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Routes: `/`, `/hourly`, `/daily`, `/maps`, `/alerts`, `/debug`.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Accessibility QA
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+With the dev server running:
 
-## Learn More
+```bash
+npm run qa:a11y
+```
 
-To learn more about Next.js, take a look at the following resources:
+Runs axe-core (WCAG 2.2 A/AA) over 6 pages × 7 data cases × light/dark × 375/768/1440 px, plus open sheets/drawers, 320 px reflow and a minimum text-size check (uses the locally installed Google Chrome).
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Where things live
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- `lib/nws.ts` — NWS fetch + normalization
+- `lib/scenario-data.ts` — scenario files → the same data model
+- `lib/editorial-rules.ts` — brief, decision modules, card order, confidence, calendar/route/model-spread rules
+- `components/weather`, `components/maps` — UI modules

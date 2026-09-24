@@ -1,26 +1,194 @@
 @import "tailwindcss";
+@import "maplibre-gl/dist/maplibre-gl.css";
 
+/* 2050 Conservative — calm editorial paper, one ocean accent, semantic weather hues. */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --paper: #f5f3ee;
+  --surface: #ffffff;
+  --surface-2: #efece5;
+  --ink: #14171a;
+  --ink-2: #4a5057;
+  --ink-3: #63686d;
+  --line: #e2ded5;
+  --line-strong: #cfc9bd;
+  --accent: #0b6e77;
+  --accent-soft: #d8ecec;
+  --rain: #2960c0;
+  --rain-soft: #dde7f8;
+  --storm: #6b48c2;
+  --storm-soft: #ebe4f8;
+  --heat: #a64b17;
+  --heat-soft: #fbe6d8;
+  --warn: #b3261e;
+  --warn-soft: #fbe3e0;
+  --ok: #2b7448;
+  --ok-soft: #dcefe3;
+  --night: rgba(20, 30, 60, 0.06);
+  --shadow: 0 1px 2px rgba(20, 23, 26, 0.04), 0 8px 24px -12px rgba(20, 23, 26, 0.12);
+  color-scheme: light;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+/* Dark theme: explicit choice, or system preference unless the user picked light. */
+:root[data-theme="dark"] {
+  --paper: #0e1113;
+  --surface: #161a1d;
+  --surface-2: #1d2226;
+  --ink: #ecebe6;
+  --ink-2: #b2b6ba;
+  --ink-3: #959b9f;
+  --line: #262c30;
+  --line-strong: #353c41;
+  --accent: #5cc2c7;
+  --accent-soft: #15343a;
+  --rain: #7aa6f2;
+  --rain-soft: #172844;
+  --storm: #ab92f0;
+  --storm-soft: #261f3d;
+  --heat: #f09a62;
+  --heat-soft: #3a2518;
+  --warn: #f2867d;
+  --warn-soft: #3d1c1a;
+  --ok: #74c794;
+  --ok-soft: #173024;
+  --night: rgba(120, 140, 200, 0.06);
+  --shadow: 0 1px 2px rgba(0, 0, 0, 0.3), 0 8px 24px -12px rgba(0, 0, 0, 0.5);
+  color-scheme: dark;
 }
-
 @media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+  :root:not([data-theme="light"]) {
+    --paper: #0e1113;
+    --surface: #161a1d;
+    --surface-2: #1d2226;
+    --ink: #ecebe6;
+    --ink-2: #b2b6ba;
+    --ink-3: #959b9f;
+    --line: #262c30;
+    --line-strong: #353c41;
+    --accent: #5cc2c7;
+    --accent-soft: #15343a;
+    --rain: #7aa6f2;
+    --rain-soft: #172844;
+    --storm: #ab92f0;
+    --storm-soft: #261f3d;
+    --heat: #f09a62;
+    --heat-soft: #3a2518;
+    --warn: #f2867d;
+    --warn-soft: #3d1c1a;
+    --ok: #74c794;
+    --ok-soft: #173024;
+    --night: rgba(120, 140, 200, 0.06);
+    --shadow: 0 1px 2px rgba(0, 0, 0, 0.3), 0 8px 24px -12px rgba(0, 0, 0, 0.5);
+    color-scheme: dark;
   }
 }
 
+@theme inline {
+  --color-paper: var(--paper);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-ink: var(--ink);
+  --color-ink-2: var(--ink-2);
+  --color-ink-3: var(--ink-3);
+  --color-line: var(--line);
+  --color-line-strong: var(--line-strong);
+  --color-accent: var(--accent);
+  --color-accent-soft: var(--accent-soft);
+  --color-rain: var(--rain);
+  --color-rain-soft: var(--rain-soft);
+  --color-storm: var(--storm);
+  --color-storm-soft: var(--storm-soft);
+  --color-heat: var(--heat);
+  --color-heat-soft: var(--heat-soft);
+  --color-warn: var(--warn);
+  --color-warn-soft: var(--warn-soft);
+  --color-ok: var(--ok);
+  --color-ok-soft: var(--ok-soft);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+  --font-serif: var(--font-newsreader);
+  --breakpoint-wide: 90rem; /* 1440px */
+  --shadow-card: var(--shadow);
+}
+
+html {
+  background: var(--paper);
+}
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-geist-sans), system-ui, sans-serif;
+  font-feature-settings: "ss01", "cv11";
+}
+
+.tnum {
+  font-variant-numeric: tabular-nums;
+}
+
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+  border-radius: 6px;
+}
+
+.card {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  box-shadow: var(--shadow);
+}
+
+.eyebrow {
+  font-size: 0.6875rem;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: var(--ink-3);
+}
+
+.scroll-x {
+  overflow-x: auto;
+  scrollbar-width: thin;
+  scroll-snap-type: x proximity;
+}
+
+.skeleton {
+  background: linear-gradient(90deg, var(--surface-2), var(--line), var(--surface-2));
+  background-size: 200% 100%;
+  animation: shimmer 1.4s linear infinite;
+  border-radius: 12px;
+}
+@keyframes shimmer {
+  to {
+    background-position: -200% 0;
+  }
+}
+
+dialog::backdrop {
+  background: rgba(10, 12, 14, 0.4);
+  backdrop-filter: blur(2px);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+.maplibregl-ctrl-attrib {
+  font-size: 10px;
+}
+
+/* Keep MapLibre's bottom controls above the radar timeline on /maps. */
+.map-lift-bottom .maplibregl-ctrl-bottom-right,
+.map-lift-bottom .maplibregl-ctrl-bottom-left {
+  bottom: 4.5rem;
+}
+@media (min-width: 640px) {
+  .map-lift-bottom .maplibregl-ctrl-bottom-right,
+  .map-lift-bottom .maplibregl-ctrl-bottom-left {
+    bottom: 5rem;
+  }
 }

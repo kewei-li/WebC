@@ -1,0 +1,229 @@
+{
+  "id": "calendar",
+  "label": "Calendar Activity",
+  "description": "Soccer practice starts in 3 hours (2 hours long). Storms build into the second half of practice.",
+  "current": {
+    "tempF": 86,
+    "feelsF": 95,
+    "text": "Partly Sunny",
+    "humidity": 60,
+    "dewpointF": 73,
+    "windMph": 7,
+    "windDir": "E",
+    "gustMph": null,
+    "visibilityMi": 10,
+    "pressureInHg": 30.0,
+    "observedMinutesAgo": 9
+  },
+  "diurnal": {
+    "temp": {
+      "0": 80,
+      "5": 78,
+      "7": 78,
+      "10": 84,
+      "13": 88,
+      "15": 89,
+      "17": 87,
+      "19": 84,
+      "22": 81
+    },
+    "feels": {
+      "0": 84,
+      "5": 81,
+      "7": 81,
+      "10": 92,
+      "13": 99,
+      "15": 101,
+      "17": 97,
+      "19": 91,
+      "22": 86
+    },
+    "humidity": {
+      "0": 86,
+      "6": 91,
+      "13": 58,
+      "16": 56,
+      "20": 72
+    },
+    "dewpoint": {
+      "0": 75,
+      "14": 74
+    }
+  },
+  "hourly": {
+    "tempDelta": {
+      "0": 0,
+      "3": 0,
+      "4": -5,
+      "6": -4,
+      "9": 0
+    },
+    "pop": {
+      "0": 5,
+      "1": 8,
+      "2": 12,
+      "3": 25,
+      "4": 70,
+      "5": 75,
+      "6": 45,
+      "7": 20,
+      "9": 10,
+      "30": 25,
+      "71": 20
+    },
+    "thunder": {
+      "0": 0,
+      "2": 5,
+      "3": 20,
+      "4": 55,
+      "5": 50,
+      "6": 25,
+      "7": 5,
+      "8": 0
+    },
+    "qpf": {
+      "0": 0,
+      "3": 0.2,
+      "4": 4,
+      "5": 3,
+      "6": 0.8,
+      "7": 0
+    },
+    "wind": {
+      "0": 7,
+      "3": 9,
+      "4": 16,
+      "6": 9,
+      "24": 8
+    },
+    "gust": {
+      "0": 0,
+      "3": 12,
+      "4": 30,
+      "5": 25,
+      "6": 0
+    },
+    "sky": {
+      "0": 30,
+      "3": 55,
+      "4": 95,
+      "6": 80,
+      "8": 40,
+      "71": 30
+    },
+    "windDir": [
+      [
+        0,
+        72,
+        "E"
+      ]
+    ],
+    "short": [
+      [
+        0,
+        3,
+        "{mfair}"
+      ],
+      [
+        3,
+        4,
+        "Chance Showers And Thunderstorms"
+      ],
+      [
+        4,
+        6,
+        "Showers And Thunderstorms Likely"
+      ],
+      [
+        6,
+        7,
+        "Chance Showers"
+      ],
+      [
+        7,
+        72,
+        "{mfair}"
+      ]
+    ]
+  },
+  "days": [
+    {
+      "high": 89,
+      "low": 77,
+      "pop": 75,
+      "wind": "E 7 to 12 mph",
+      "dayShort": "Showers And Thunderstorms Likely",
+      "dayText": "Mostly sunny until about {t+3}, then showers and thunderstorms likely between {t+4} and {t+6}. Some storms could produce gusty winds. High near 89. Chance of precipitation is 75%.",
+      "nightShort": "Chance Showers then Mostly Clear",
+      "nightText": "A slight chance of showers before {t+8}. Mostly clear, with a low around 77."
+    },
+    {
+      "high": 89,
+      "low": 78,
+      "pop": 20,
+      "wind": "E 9 mph",
+      "dayShort": "Mostly Sunny",
+      "dayText": "Mostly sunny, with a high near 89. Heat index values as high as 100. East wind around 9 mph.",
+      "nightShort": "Mostly Clear",
+      "nightText": "Mostly clear, with a low around 78."
+    },
+    {
+      "high": 88,
+      "low": 78,
+      "pop": 30,
+      "wind": "E 10 mph",
+      "dayShort": "Mostly Sunny then Chance Showers And Thunderstorms",
+      "dayText": "A chance of showers and thunderstorms after 2pm. Mostly sunny, with a high near 88. East wind around 10 mph. Chance of precipitation is 30%.",
+      "nightShort": "Partly Cloudy",
+      "nightText": "Partly cloudy, with a low around 78. East wind around 8 mph."
+    },
+    {
+      "high": 88,
+      "low": 77,
+      "pop": 40,
+      "wind": "SE 8 mph",
+      "dayShort": "Chance Showers And Thunderstorms",
+      "dayText": "A chance of showers and thunderstorms. Partly sunny, with a high near 88. Chance of precipitation is 40%.",
+      "nightShort": "Chance Showers And Thunderstorms",
+      "nightText": "A chance of showers and thunderstorms before 10pm. Partly cloudy, with a low around 77."
+    },
+    {
+      "high": 89,
+      "low": 78,
+      "pop": 20,
+      "wind": "E 9 mph",
+      "dayShort": "Mostly Sunny",
+      "dayText": "Mostly sunny, with a high near 89. Heat index values as high as 100. East wind around 9 mph.",
+      "nightShort": "Mostly Clear",
+      "nightText": "Mostly clear, with a low around 78."
+    },
+    {
+      "high": 87,
+      "low": 77,
+      "pop": 50,
+      "wind": "SE 9 mph",
+      "dayShort": "Showers And Thunderstorms Likely",
+      "dayText": "Showers and thunderstorms likely, mainly after 1pm. Partly sunny, with a high near 87. Chance of precipitation is 50%.",
+      "nightShort": "Chance Showers And Thunderstorms",
+      "nightText": "A chance of showers and thunderstorms. Mostly cloudy, with a low around 77."
+    },
+    {
+      "high": 88,
+      "low": 78,
+      "pop": 30,
+      "wind": "E 10 mph",
+      "dayShort": "Mostly Sunny then Chance Showers And Thunderstorms",
+      "dayText": "A chance of showers and thunderstorms after 2pm. Mostly sunny, with a high near 88. East wind around 10 mph. Chance of precipitation is 30%.",
+      "nightShort": "Partly Cloudy",
+      "nightText": "Partly cloudy, with a low around 78. East wind around 8 mph."
+    }
+  ],
+  "calendar": [
+    {
+      "title": "Soccer practice",
+      "location": "Tropical Park fields",
+      "startOffsetH": 3,
+      "durationH": 2
+    }
+  ]
+}

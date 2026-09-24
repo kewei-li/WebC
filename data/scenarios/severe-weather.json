@@ -1,0 +1,271 @@
+{
+  "id": "severe",
+  "label": "Severe Weather",
+  "description": "A Severe Thunderstorm Warning is in effect. The strongest part of the storm reaches Miami in about 20\u201340 minutes.",
+  "current": {
+    "tempF": 88,
+    "feelsF": 100,
+    "text": "Mostly Cloudy",
+    "humidity": 64,
+    "dewpointF": 76,
+    "windMph": 10,
+    "windDir": "SW",
+    "gustMph": 18,
+    "visibilityMi": 10,
+    "pressureInHg": 29.92,
+    "observedMinutesAgo": 6
+  },
+  "diurnal": {
+    "temp": {
+      "0": 80,
+      "5": 78,
+      "7": 78,
+      "10": 84,
+      "13": 88,
+      "15": 89,
+      "17": 87,
+      "19": 84,
+      "22": 81
+    },
+    "feels": {
+      "0": 84,
+      "5": 81,
+      "7": 81,
+      "10": 92,
+      "13": 99,
+      "15": 101,
+      "17": 97,
+      "19": 91,
+      "22": 86
+    },
+    "humidity": {
+      "0": 86,
+      "6": 91,
+      "13": 58,
+      "16": 56,
+      "20": 72
+    },
+    "dewpoint": {
+      "0": 75,
+      "14": 74
+    }
+  },
+  "hourly": {
+    "tempDelta": {
+      "0": 0,
+      "1": -9,
+      "2": -8,
+      "4": -4,
+      "7": 0
+    },
+    "pop": {
+      "0": 70,
+      "1": 95,
+      "2": 85,
+      "3": 50,
+      "4": 25,
+      "6": 15,
+      "12": 10,
+      "30": 35,
+      "34": 20,
+      "71": 20
+    },
+    "thunder": {
+      "0": 75,
+      "1": 85,
+      "2": 60,
+      "3": 30,
+      "4": 10,
+      "6": 0,
+      "30": 20,
+      "34": 0
+    },
+    "qpf": {
+      "0": 3,
+      "1": 14,
+      "2": 7,
+      "3": 1.5,
+      "4": 0.3,
+      "5": 0
+    },
+    "wind": {
+      "0": 12,
+      "1": 32,
+      "2": 18,
+      "3": 10,
+      "24": 9
+    },
+    "gust": {
+      "0": 20,
+      "1": 60,
+      "2": 35,
+      "3": 18,
+      "4": 0
+    },
+    "sky": {
+      "0": 80,
+      "1": 100,
+      "3": 85,
+      "5": 50,
+      "8": 30,
+      "71": 30
+    },
+    "windDir": [
+      [
+        0,
+        1,
+        "SW"
+      ],
+      [
+        1,
+        2,
+        "W"
+      ],
+      [
+        2,
+        4,
+        "NW"
+      ],
+      [
+        4,
+        72,
+        "E"
+      ]
+    ],
+    "short": [
+      [
+        0,
+        2,
+        "Severe Thunderstorms"
+      ],
+      [
+        2,
+        3,
+        "Showers And Thunderstorms"
+      ],
+      [
+        3,
+        5,
+        "Chance Showers"
+      ],
+      [
+        5,
+        72,
+        "{mfair}"
+      ]
+    ]
+  },
+  "days": [
+    {
+      "high": 89,
+      "low": 76,
+      "pop": 95,
+      "wind": "SW 10 to 15 mph, gusts to 60 mph",
+      "dayShort": "Severe Thunderstorms",
+      "dayText": "Showers and thunderstorms, some severe, until about {t+3}. Damaging wind gusts up to 60 mph and quarter-size hail are possible. High near 89. Chance of precipitation is 95%.",
+      "nightShort": "Chance Showers then Partly Cloudy",
+      "nightText": "A chance of showers before {t+5}. Partly cloudy, with a low around 76."
+    },
+    {
+      "high": 89,
+      "low": 78,
+      "pop": 20,
+      "wind": "E 9 mph",
+      "dayShort": "Mostly Sunny",
+      "dayText": "Mostly sunny, with a high near 89. Heat index values as high as 100. East wind around 9 mph.",
+      "nightShort": "Mostly Clear",
+      "nightText": "Mostly clear, with a low around 78."
+    },
+    {
+      "high": 88,
+      "low": 78,
+      "pop": 30,
+      "wind": "E 10 mph",
+      "dayShort": "Mostly Sunny then Chance Showers And Thunderstorms",
+      "dayText": "A chance of showers and thunderstorms after 2pm. Mostly sunny, with a high near 88. East wind around 10 mph. Chance of precipitation is 30%.",
+      "nightShort": "Partly Cloudy",
+      "nightText": "Partly cloudy, with a low around 78. East wind around 8 mph."
+    },
+    {
+      "high": 88,
+      "low": 77,
+      "pop": 40,
+      "wind": "SE 8 mph",
+      "dayShort": "Chance Showers And Thunderstorms",
+      "dayText": "A chance of showers and thunderstorms. Partly sunny, with a high near 88. Chance of precipitation is 40%.",
+      "nightShort": "Chance Showers And Thunderstorms",
+      "nightText": "A chance of showers and thunderstorms before 10pm. Partly cloudy, with a low around 77."
+    },
+    {
+      "high": 87,
+      "low": 77,
+      "pop": 50,
+      "wind": "SE 9 mph",
+      "dayShort": "Showers And Thunderstorms Likely",
+      "dayText": "Showers and thunderstorms likely, mainly after 1pm. Partly sunny, with a high near 87. Chance of precipitation is 50%.",
+      "nightShort": "Chance Showers And Thunderstorms",
+      "nightText": "A chance of showers and thunderstorms. Mostly cloudy, with a low around 77."
+    },
+    {
+      "high": 89,
+      "low": 78,
+      "pop": 20,
+      "wind": "E 9 mph",
+      "dayShort": "Mostly Sunny",
+      "dayText": "Mostly sunny, with a high near 89. Heat index values as high as 100. East wind around 9 mph.",
+      "nightShort": "Mostly Clear",
+      "nightText": "Mostly clear, with a low around 78."
+    },
+    {
+      "high": 88,
+      "low": 78,
+      "pop": 30,
+      "wind": "E 10 mph",
+      "dayShort": "Mostly Sunny then Chance Showers And Thunderstorms",
+      "dayText": "A chance of showers and thunderstorms after 2pm. Mostly sunny, with a high near 88. East wind around 10 mph. Chance of precipitation is 30%.",
+      "nightShort": "Partly Cloudy",
+      "nightText": "Partly cloudy, with a low around 78. East wind around 8 mph."
+    }
+  ],
+  "alerts": [
+    {
+      "event": "Severe Thunderstorm Warning",
+      "severity": "Severe",
+      "urgency": "Immediate",
+      "certainty": "Observed",
+      "headline": "Severe Thunderstorm Warning issued for Miami-Dade County until {m+45}",
+      "description": "At {m-10}, a severe thunderstorm was located near Sweetwater, moving east at 25 mph.\n\nHAZARD...60 mph wind gusts and quarter size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Hail damage to vehicles is expected. Expect wind damage to roofs, siding, and trees.\n\nLocations impacted include Miami, Hialeah, Coral Gables, Doral, Miami Beach and Key Biscayne.",
+      "instruction": "For your protection move to an interior room on the lowest floor of a building.",
+      "areaDesc": "Miami-Dade, FL",
+      "onsetMin": -10,
+      "endsMin": 45,
+      "polygon": [
+        [
+          -80.55,
+          25.62
+        ],
+        [
+          -80.55,
+          25.93
+        ],
+        [
+          -80.11,
+          25.95
+        ],
+        [
+          -80.11,
+          25.66
+        ],
+        [
+          -80.55,
+          25.62
+        ]
+      ],
+      "approach": {
+        "minMinutes": 20,
+        "maxMinutes": 40,
+        "hazard": "60 mph gusts and quarter-size hail"
+      }
+    }
+  ]
+}

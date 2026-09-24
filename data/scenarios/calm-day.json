@@ -1,0 +1,175 @@
+{
+  "id": "calm",
+  "label": "Calm Day",
+  "description": "Dry, sunny and seasonable. Nothing needs a decision \u2014 the page should stay quiet.",
+  "current": {
+    "tempF": 84,
+    "feelsF": 89,
+    "text": "{fair}",
+    "humidity": 60,
+    "dewpointF": 70,
+    "windMph": 9,
+    "windDir": "E",
+    "gustMph": null,
+    "visibilityMi": 10,
+    "pressureInHg": 30.08,
+    "observedMinutesAgo": 14
+  },
+  "diurnal": {
+    "temp": {
+      "0": 80,
+      "5": 78,
+      "7": 78,
+      "10": 84,
+      "13": 88,
+      "15": 89,
+      "17": 87,
+      "19": 84,
+      "22": 81
+    },
+    "feels": {
+      "0": 82,
+      "5": 79,
+      "7": 79,
+      "10": 88,
+      "13": 94,
+      "15": 96,
+      "17": 93,
+      "19": 88,
+      "22": 84
+    },
+    "humidity": {
+      "0": 80,
+      "6": 85,
+      "13": 52,
+      "16": 50,
+      "20": 66
+    },
+    "dewpoint": {
+      "0": 71,
+      "14": 70
+    }
+  },
+  "hourly": {
+    "tempDelta": {
+      "0": 0
+    },
+    "pop": {
+      "0": 3,
+      "10": 5,
+      "20": 8,
+      "40": 6,
+      "71": 10
+    },
+    "thunder": {
+      "0": 0,
+      "71": 2
+    },
+    "qpf": {
+      "0": 0
+    },
+    "wind": {
+      "0": 9,
+      "6": 11,
+      "14": 6,
+      "30": 10,
+      "71": 8
+    },
+    "gust": {
+      "0": 0
+    },
+    "sky": {
+      "0": 15,
+      "12": 25,
+      "24": 10,
+      "48": 30,
+      "71": 20
+    },
+    "windDir": [
+      [
+        0,
+        72,
+        "E"
+      ]
+    ],
+    "short": [
+      [
+        0,
+        72,
+        "{fair}"
+      ]
+    ]
+  },
+  "days": [
+    {
+      "high": 89,
+      "low": 77,
+      "pop": 5,
+      "wind": "E 10 mph",
+      "dayShort": "Sunny",
+      "dayText": "Sunny, with a high near 89. Heat index values as high as 96. East wind around 10 mph.",
+      "nightShort": "Clear",
+      "nightText": "Clear, with a low around 77. East wind around 7 mph."
+    },
+    {
+      "high": 89,
+      "low": 77,
+      "pop": 5,
+      "wind": "E 9 mph",
+      "dayShort": "Sunny",
+      "dayText": "Sunny, with a high near 89. East wind 8 to 10 mph.",
+      "nightShort": "Mostly Clear",
+      "nightText": "Mostly clear, with a low around 77."
+    },
+    {
+      "high": 88,
+      "low": 77,
+      "pop": 10,
+      "wind": "E 10 mph",
+      "dayShort": "Mostly Sunny",
+      "dayText": "Mostly sunny, with a high near 88. East wind around 10 mph.",
+      "nightShort": "Mostly Clear",
+      "nightText": "Mostly clear, with a low around 77."
+    },
+    {
+      "high": 88,
+      "low": 78,
+      "pop": 30,
+      "wind": "E 10 mph",
+      "dayShort": "Mostly Sunny then Chance Showers And Thunderstorms",
+      "dayText": "A chance of showers and thunderstorms after 2pm. Mostly sunny, with a high near 88. East wind around 10 mph. Chance of precipitation is 30%.",
+      "nightShort": "Partly Cloudy",
+      "nightText": "Partly cloudy, with a low around 78. East wind around 8 mph."
+    },
+    {
+      "high": 89,
+      "low": 78,
+      "pop": 20,
+      "wind": "E 9 mph",
+      "dayShort": "Mostly Sunny",
+      "dayText": "Mostly sunny, with a high near 89. Heat index values as high as 100. East wind around 9 mph.",
+      "nightShort": "Mostly Clear",
+      "nightText": "Mostly clear, with a low around 78."
+    },
+    {
+      "high": 88,
+      "low": 77,
+      "pop": 40,
+      "wind": "SE 8 mph",
+      "dayShort": "Chance Showers And Thunderstorms",
+      "dayText": "A chance of showers and thunderstorms. Partly sunny, with a high near 88. Chance of precipitation is 40%.",
+      "nightShort": "Chance Showers And Thunderstorms",
+      "nightText": "A chance of showers and thunderstorms before 10pm. Partly cloudy, with a low around 77."
+    },
+    {
+      "high": 87,
+      "low": 77,
+      "pop": 50,
+      "wind": "SE 9 mph",
+      "dayShort": "Showers And Thunderstorms Likely",
+      "dayText": "Showers and thunderstorms likely, mainly after 1pm. Partly sunny, with a high near 87. Chance of precipitation is 50%.",
+      "nightShort": "Chance Showers And Thunderstorms",
+      "nightText": "A chance of showers and thunderstorms. Mostly cloudy, with a low around 77."
+    }
+  ]
+}

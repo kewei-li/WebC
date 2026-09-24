@@ -39,3 +39,10 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# MapLibre build copied by postinstall
+/public/maplibre/
+
+
+# a11y QA output
+a11y-report.json
