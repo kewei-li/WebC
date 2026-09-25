@@ -45,12 +45,12 @@ export function SiteHeader() {
   return (
     <header ref={headerRef} className="sticky top-0 z-40 border-b border-line bg-paper/90 backdrop-blur supports-[backdrop-filter]:bg-paper/75">
       <div className="mx-auto flex h-16 max-w-[1600px] items-center gap-3 px-4 sm:px-6 wide:px-10">
-        <Link href="/" className="flex items-baseline gap-1.5 font-serif text-[1.35rem] leading-none tracking-tight">
-          Forecast<span className="text-accent">.</span>
+        <Link href="/" className="flex shrink-0 items-baseline whitespace-nowrap font-serif text-[1.15rem] leading-none tracking-tight sm:text-[1.35rem]">
+          Conservative Weather<span className="text-accent">.</span>
         </Link>
         <button
           onClick={() => setSheet("search")}
-          className="ml-1 hidden items-center gap-1.5 rounded-full border border-line bg-surface px-3 py-1.5 text-sm text-ink-2 hover:border-line-strong sm:inline-flex"
+          className="ml-1 hidden shrink-0 items-center gap-1.5 rounded-full border border-line bg-surface px-3 py-1.5 text-sm text-ink-2 hover:border-line-strong xl:inline-flex"
         >
           <MapPin size={14} className="text-accent" />
           {data?.location.name ?? "Miami, FL"}
@@ -90,7 +90,7 @@ export function SiteHeader() {
           <button className={`${iconBtn} hidden lg:grid`} aria-label="Saved locations" onClick={() => setSheet("saved")}>
             <Star size={18} />
           </button>
-          <ThemeToggle className={iconBtn} />
+          <ThemeToggle className="hidden size-10 place-items-center rounded-full text-ink-2 hover:bg-surface-2 hover:text-ink min-[360px]:grid" />
           <button className={`${iconBtn} hidden lg:grid`} aria-label="Settings" onClick={() => setSheet("settings")}>
             <Settings size={18} />
           </button>

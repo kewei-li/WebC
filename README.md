@@ -1,4 +1,4 @@
-# Forecast — 2050 Web Direction C (Conservative)
+# Conservative Weather — 2050 Web Direction C
 
 Responsive weather web prototype built from [`docs/2050_Web_Conservative_Intelligent_Forecast_PRD.md`](docs/2050_Web_Conservative_Intelligent_Forecast_PRD.md).
 Familiar **Home / Hourly / Daily / Maps** structure with an intelligence layer that decides what to say and promote.

@@ -11,7 +11,7 @@ const geistMono = Geist_Mono({ variable: "--font-geist-mono", subsets: ["latin"]
 const newsreader = Newsreader({ variable: "--font-newsreader", subsets: ["latin"], style: ["normal", "italic"] });
 
 export const metadata: Metadata = {
-  title: "Forecast — Miami, FL",
+  title: "Conservative Weather — Miami, FL",
   description: "Intelligent forecast prototype (2050 Direction C — Conservative) on live National Weather Service data.",
 };
 

@@ -114,7 +114,7 @@ export function UtilitySheet({ tab, onTab, onClose }: { tab: UtilityTab | null; 
 
       {tab === "account" && (
         <div className="space-y-3 text-sm text-ink-2">
-          <p className="font-serif text-xl text-ink">Forecast Premium</p>
+          <p className="font-serif text-xl text-ink">Conservative Weather Premium</p>
           <p>Minute-by-minute rain, route weather and calendar-aware windows. Placeholder in this prototype.</p>
           <button disabled className="w-full rounded-full bg-ink py-2.5 font-medium text-paper opacity-50">Sign in (not available in prototype)</button>
         </div>
