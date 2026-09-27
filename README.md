@@ -8,6 +8,20 @@ Familiar **Home / Hourly / Daily / Maps** structure with an intelligence layer t
 - **Stack:** Next.js (App Router) · React · TypeScript · Tailwind · TanStack Query · D3 (Day Landscape, Precip Ribbon) · ECharts · MapLibre GL · Motion.
 - **Themes:** System / Light / Dark.
 
+## Screenshots
+
+**Home** — weather brief, rain arrival ribbon with confidence, hourly transitions and the context rail (Rain Arrival scenario, light theme).
+
+![Home on desktop](docs/screenshots/home-desktop.png)
+
+**Maps** — live NOAA radar with playback, plus the drive to Port St. Lucie coloured by rain risk and a departure suggestion (Route Weather scenario, dark theme).
+
+![Maps on desktop](docs/screenshots/maps-desktop.png)
+
+**Mobile** — official Severe Thunderstorm Warning with a separate "for your location" interpretation and brief (Severe Weather scenario, dark theme).
+
+<img src="docs/screenshots/alerts-mobile.png" alt="Severe weather on mobile" width="390">
+
 ## Run
 
 ```bash
