@@ -14,13 +14,21 @@ Familiar **Home / Hourly / Daily / Maps** structure with an intelligence layer t
 
 ![Home on desktop](docs/screenshots/home-desktop.png)
 
+**Hourly** — calendar-aware card (soccer practice at risk, with a drier slot), rain arrival ribbon and the highlighted transitions, with the hour inspector on the right (Calendar Activity scenario, light theme).
+
+![Hourly on desktop](docs/screenshots/hourly-desktop.png)
+
+**Daily** — 7-day list beside the selected day: NWS narrative, Day Landscape, rain timing, wind, risk, best activity window and confidence (Rain Arrival scenario, dark theme).
+
+![Daily on desktop](docs/screenshots/daily-desktop.png)
+
 **Maps** — live NOAA radar with playback, plus the drive to Port St. Lucie coloured by rain risk and a departure suggestion (Route Weather scenario, dark theme).
 
 ![Maps on desktop](docs/screenshots/maps-desktop.png)
 
-**Mobile** — official Severe Thunderstorm Warning with a separate "for your location" interpretation and brief (Severe Weather scenario, dark theme).
+**Alerts** — the official Severe Thunderstorm Warning text stays authoritative; the interpretation for your location sits separately with its confidence (Severe Weather scenario, light theme).
 
-<img src="docs/screenshots/alerts-mobile.png" alt="Severe weather on mobile" width="390">
+![Alerts on desktop](docs/screenshots/alerts-desktop.png)
 
 ## Run
 
